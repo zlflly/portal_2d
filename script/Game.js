@@ -42,6 +42,7 @@ class Game {
     }
 
     async load() {
+        console.log('开始加载地图和资源...');
         const defaultUrl = './assets/maps/Test.json'
         await this.map.loadFromURL(defaultUrl);
         this.loaded = true;
@@ -49,6 +50,8 @@ class Game {
         this.view = new PortalView(this.map);
         this.computations.push((t) => this.view.compute(t));
         this.renderings.push(() => this.view.draw())
+        
+        console.log('地图和资源加载完成!');
     }
 
     start() {

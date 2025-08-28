@@ -30,7 +30,7 @@ window.$game.dataManager.resolve(
         {
             "type": 1,
             "position": {
-                "x": 0,
+                "x": -40,
                 "y": 0
             },
             "size": {
@@ -56,15 +56,26 @@ window.$game.dataManager.resolve(
                 "y": 40
             },
             "size": {
+                "x": 840,
+                "y": 40
+            }
+        },
+        {
+            "type": "g",
+            "position": {
+                "x": 880,
+                "y": 40
+            },
+            "size": {
+                "x": 360,
+                "y": 40
+            }
+        },
+        {
+            "type": 1,
+            "position": {
                 "x": 1200,
                 "y": 40
-            }
-        },
-        {
-            "type": 1,
-            "position": {
-                "x": 1240,
-                "y": 40
             },
             "size": {
                 "x": 40,
@@ -100,14 +111,25 @@ window.$game.dataManager.resolve(
                 "y": 80
             },
             "size": {
-                "x": 400,
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": "g",
+            "position": {
+                "x": 880,
+                "y": 80
+            },
+            "size": {
+                "x": 360,
                 "y": 40
             }
         },
         {
             "type": 1,
             "position": {
-                "x": 1240,
+                "x": 1200,
                 "y": 80
             },
             "size": {
@@ -144,14 +166,25 @@ window.$game.dataManager.resolve(
                 "y": 120
             },
             "size": {
-                "x": 400,
+                "x": 320,
+                "y": 40
+            }
+        },
+        {
+            "type": "g",
+            "position": {
+                "x": 1160,
+                "y": 120
+            },
+            "size": {
+                "x": 80,
                 "y": 40
             }
         },
         {
             "type": 1,
             "position": {
-                "x": 1240,
+                "x": 1200,
                 "y": 120
             },
             "size": {
@@ -188,14 +221,25 @@ window.$game.dataManager.resolve(
                 "y": 160
             },
             "size": {
-                "x": 120,
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": "g",
+            "position": {
+                "x": 1160,
+                "y": 160
+            },
+            "size": {
+                "x": 80,
                 "y": 40
             }
         },
         {
             "type": 1,
             "position": {
-                "x": 1240,
+                "x": 1200,
                 "y": 160
             },
             "size": {
@@ -232,14 +276,25 @@ window.$game.dataManager.resolve(
                 "y": 200
             },
             "size": {
-                "x": 120,
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": "g",
+            "position": {
+                "x": 1160,
+                "y": 200
+            },
+            "size": {
+                "x": 80,
                 "y": 40
             }
         },
         {
             "type": 1,
             "position": {
-                "x": 1240,
+                "x": 1200,
                 "y": 200
             },
             "size": {
@@ -276,14 +331,25 @@ window.$game.dataManager.resolve(
                 "y": 240
             },
             "size": {
-                "x": 120,
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": "g",
+            "position": {
+                "x": 1160,
+                "y": 240
+            },
+            "size": {
+                "x": 80,
                 "y": 40
             }
         },
         {
             "type": 1,
             "position": {
-                "x": 1240,
+                "x": 1200,
                 "y": 240
             },
             "size": {
@@ -320,14 +386,25 @@ window.$game.dataManager.resolve(
                 "y": 280
             },
             "size": {
-                "x": 120,
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": "g",
+            "position": {
+                "x": 1160,
+                "y": 280
+            },
+            "size": {
+                "x": 80,
                 "y": 40
             }
         },
         {
             "type": 1,
             "position": {
-                "x": 1240,
+                "x": 1200,
                 "y": 280
             },
             "size": {
@@ -360,7 +437,18 @@ window.$game.dataManager.resolve(
         {
             "type": 2,
             "position": {
-                "x": 480,
+                "x": 1120,
+                "y": 320
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": "g",
+            "position": {
+                "x": 1160,
                 "y": 320
             },
             "size": {
@@ -369,20 +457,9 @@ window.$game.dataManager.resolve(
             }
         },
         {
-            "type": 2,
-            "position": {
-                "x": 1120,
-                "y": 320
-            },
-            "size": {
-                "x": 120,
-                "y": 40
-            }
-        },
-        {
             "type": 1,
             "position": {
-                "x": 1240,
+                "x": 1200,
                 "y": 320
             },
             "size": {
@@ -415,29 +492,29 @@ window.$game.dataManager.resolve(
         {
             "type": 2,
             "position": {
-                "x": 200,
-                "y": 360
-            },
-            "size": {
-                "x": 120,
-                "y": 40
-            }
-        },
-        {
-            "type": 2,
-            "position": {
                 "x": 1120,
                 "y": 360
             },
             "size": {
-                "x": 120,
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": "g",
+            "position": {
+                "x": 1160,
+                "y": 360
+            },
+            "size": {
+                "x": 80,
                 "y": 40
             }
         },
         {
             "type": 1,
             "position": {
-                "x": 1240,
+                "x": 1200,
                 "y": 360
             },
             "size": {
@@ -470,7 +547,7 @@ window.$game.dataManager.resolve(
         {
             "type": 2,
             "position": {
-                "x": 200,
+                "x": 1120,
                 "y": 400
             },
             "size": {
@@ -479,20 +556,20 @@ window.$game.dataManager.resolve(
             }
         },
         {
-            "type": 2,
+            "type": "g",
             "position": {
-                "x": 1120,
+                "x": 1160,
                 "y": 400
             },
             "size": {
-                "x": 120,
+                "x": 80,
                 "y": 40
             }
         },
         {
             "type": 1,
             "position": {
-                "x": 1240,
+                "x": 1200,
                 "y": 400
             },
             "size": {
@@ -523,31 +600,75 @@ window.$game.dataManager.resolve(
             }
         },
         {
-            "type": 2,
-            "position": {
-                "x": 200,
-                "y": 440
-            },
-            "size": {
-                "x": 40,
-                "y": 40
-            }
-        },
-        {
-            "type": 2,
+            "type": "w",
             "position": {
                 "x": 640,
                 "y": 440
             },
             "size": {
-                "x": 120,
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": "x",
+            "position": {
+                "x": 680,
+                "y": 440
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": "y",
+            "position": {
+                "x": 720,
+                "y": 440
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": "w",
+            "position": {
+                "x": 920,
+                "y": 440
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": "x",
+            "position": {
+                "x": 960,
+                "y": 440
+            },
+            "size": {
+                "x": 40,
                 "y": 40
             }
         },
         {
             "type": 2,
             "position": {
-                "x": 920,
+                "x": 1120,
+                "y": 440
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": "g",
+            "position": {
+                "x": 1160,
                 "y": 440
             },
             "size": {
@@ -556,230 +677,10 @@ window.$game.dataManager.resolve(
             }
         },
         {
-            "type": 2,
-            "position": {
-                "x": 1120,
-                "y": 440
-            },
-            "size": {
-                "x": 120,
-                "y": 40
-            }
-        },
-        {
             "type": 1,
             "position": {
-                "x": 1240,
-                "y": 440
-            },
-            "size": {
-                "x": 40,
-                "y": 40
-            }
-        },
-        {
-            "type": 1,
-            "position": {
-                "x": 0,
-                "y": 480
-            },
-            "size": {
-                "x": 40,
-                "y": 40
-            }
-        },
-        {
-            "type": 2,
-            "position": {
-                "x": 40,
-                "y": 480
-            },
-            "size": {
-                "x": 40,
-                "y": 40
-            }
-        },
-        {
-            "type": 2,
-            "position": {
-                "x": 1120,
-                "y": 480
-            },
-            "size": {
-                "x": 120,
-                "y": 40
-            }
-        },
-        {
-            "type": 1,
-            "position": {
-                "x": 1240,
-                "y": 480
-            },
-            "size": {
-                "x": 40,
-                "y": 40
-            }
-        },
-        {
-            "type": 1,
-            "position": {
-                "x": 0,
-                "y": 520
-            },
-            "size": {
-                "x": 40,
-                "y": 40
-            }
-        },
-        {
-            "type": 2,
-            "position": {
-                "x": 40,
-                "y": 520
-            },
-            "size": {
-                "x": 40,
-                "y": 40
-            }
-        },
-        {
-            "type": 2,
-            "position": {
-                "x": 1120,
-                "y": 520
-            },
-            "size": {
-                "x": 120,
-                "y": 40
-            }
-        },
-        {
-            "type": 1,
-            "position": {
-                "x": 1240,
-                "y": 520
-            },
-            "size": {
-                "x": 40,
-                "y": 40
-            }
-        },
-        {
-            "type": 1,
-            "position": {
-                "x": 0,
-                "y": 560
-            },
-            "size": {
-                "x": 40,
-                "y": 40
-            }
-        },
-        {
-            "type": 2,
-            "position": {
-                "x": 40,
-                "y": 560
-            },
-            "size": {
-                "x": 40,
-                "y": 40
-            }
-        },
-        {
-            "type": 2,
-            "position": {
-                "x": 280,
-                "y": 560
-            },
-            "size": {
-                "x": 960,
-                "y": 40
-            }
-        },
-        {
-            "type": 1,
-            "position": {
-                "x": 1240,
-                "y": 560
-            },
-            "size": {
-                "x": 40,
-                "y": 40
-            }
-        },
-        {
-            "type": 1,
-            "position": {
-                "x": 0,
-                "y": 600
-            },
-            "size": {
-                "x": 40,
-                "y": 40
-            }
-        },
-        {
-            "type": 2,
-            "position": {
-                "x": 40,
-                "y": 600
-            },
-            "size": {
-                "x": 40,
-                "y": 40
-            }
-        },
-        {
-            "type": 2,
-            "position": {
-                "x": 280,
-                "y": 600
-            },
-            "size": {
-                "x": 960,
-                "y": 40
-            }
-        },
-        {
-            "type": 1,
-            "position": {
-                "x": 1240,
-                "y": 600
-            },
-            "size": {
-                "x": 40,
-                "y": 40
-            }
-        },
-        {
-            "type": 1,
-            "position": {
-                "x": 0,
-                "y": 640
-            },
-            "size": {
-                "x": 40,
-                "y": 40
-            }
-        },
-        {
-            "type": 2,
-            "position": {
-                "x": 40,
-                "y": 640
-            },
-            "size": {
                 "x": 1200,
-                "y": 40
-            }
-        },
-        {
-            "type": 1,
-            "position": {
-                "x": 1240,
-                "y": 640
+                "y": 440
             },
             "size": {
                 "x": 40,
@@ -790,6 +691,270 @@ window.$game.dataManager.resolve(
             "type": 1,
             "position": {
                 "x": 0,
+                "y": 480
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": 2,
+            "position": {
+                "x": 40,
+                "y": 480
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": 2,
+            "position": {
+                "x": 1120,
+                "y": 480
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": "g",
+            "position": {
+                "x": 1160,
+                "y": 480
+            },
+            "size": {
+                "x": 80,
+                "y": 40
+            }
+        },
+        {
+            "type": 1,
+            "position": {
+                "x": 1200,
+                "y": 480
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": 1,
+            "position": {
+                "x": 0,
+                "y": 520
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": 2,
+            "position": {
+                "x": 40,
+                "y": 520
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": 2,
+            "position": {
+                "x": 1120,
+                "y": 520
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": "g",
+            "position": {
+                "x": 1160,
+                "y": 520
+            },
+            "size": {
+                "x": 80,
+                "y": 40
+            }
+        },
+        {
+            "type": 1,
+            "position": {
+                "x": 1200,
+                "y": 520
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": 1,
+            "position": {
+                "x": 0,
+                "y": 560
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": 2,
+            "position": {
+                "x": 40,
+                "y": 560
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": 2,
+            "position": {
+                "x": 280,
+                "y": 560
+            },
+            "size": {
+                "x": 880,
+                "y": 40
+            }
+        },
+        {
+            "type": "g",
+            "position": {
+                "x": 1160,
+                "y": 560
+            },
+            "size": {
+                "x": 80,
+                "y": 40
+            }
+        },
+        {
+            "type": 1,
+            "position": {
+                "x": 1200,
+                "y": 560
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": 1,
+            "position": {
+                "x": 0,
+                "y": 600
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": 2,
+            "position": {
+                "x": 40,
+                "y": 600
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": 2,
+            "position": {
+                "x": 280,
+                "y": 600
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": "g",
+            "position": {
+                "x": 320,
+                "y": 600
+            },
+            "size": {
+                "x": 920,
+                "y": 40
+            }
+        },
+        {
+            "type": 1,
+            "position": {
+                "x": 1200,
+                "y": 600
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": 1,
+            "position": {
+                "x": 0,
+                "y": 640
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": 2,
+            "position": {
+                "x": 40,
+                "y": 640
+            },
+            "size": {
+                "x": 280,
+                "y": 40
+            }
+        },
+        {
+            "type": "g",
+            "position": {
+                "x": 320,
+                "y": 640
+            },
+            "size": {
+                "x": 920,
+                "y": 40
+            }
+        },
+        {
+            "type": 1,
+            "position": {
+                "x": 1200,
+                "y": 640
+            },
+            "size": {
+                "x": 40,
+                "y": 40
+            }
+        },
+        {
+            "type": 1,
+            "position": {
+                "x": -40,
                 "y": 680
             },
             "size": {
@@ -812,43 +977,7 @@ window.$game.dataManager.resolve(
             }
         },
         {
-            "type": 2,
-            "facing": 3,
-            "position": {
-                "y": 400,
-                "x": 220
-            },
-            "size": {
-                "y": 80,
-                "x": 20
-            }
-        },
-        {
-            "type": 2,
-            "facing": 3,
-            "position": {
-                "y": 360,
-                "x": 300
-            },
-            "size": {
-                "y": 40,
-                "x": 20
-            }
-        },
-        {
-            "type": 2,
-            "facing": 3,
-            "position": {
-                "y": 320,
-                "x": 540
-            },
-            "size": {
-                "y": 40,
-                "x": 20
-            }
-        },
-        {
-            "type": 2,
+            "type": "y",
             "facing": 3,
             "position": {
                 "y": 440,
@@ -860,7 +989,7 @@ window.$game.dataManager.resolve(
             }
         },
         {
-            "type": 2,
+            "type": "x",
             "facing": 3,
             "position": {
                 "y": 440,
@@ -896,34 +1025,10 @@ window.$game.dataManager.resolve(
             }
         },
         {
-            "type": 2,
+            "type": "w",
             "facing": 2,
             "position": {
-                "x": 480,
-                "y": 340
-            },
-            "size": {
-                "x": 80,
-                "y": 20
-            }
-        },
-        {
-            "type": 2,
-            "facing": 2,
-            "position": {
-                "x": 240,
-                "y": 380
-            },
-            "size": {
-                "x": 80,
-                "y": 20
-            }
-        },
-        {
-            "type": 2,
-            "facing": 2,
-            "position": {
-                "x": 200,
+                "x": 640,
                 "y": 460
             },
             "size": {
@@ -932,39 +1037,51 @@ window.$game.dataManager.resolve(
             }
         },
         {
-            "type": 2,
+            "type": "x",
             "facing": 2,
             "position": {
-                "x": 640,
+                "x": 680,
                 "y": 460
             },
             "size": {
-                "x": 120,
+                "x": 40,
                 "y": 20
             }
         },
         {
-            "type": 2,
+            "type": "y",
+            "facing": 2,
+            "position": {
+                "x": 720,
+                "y": 460
+            },
+            "size": {
+                "x": 40,
+                "y": 20
+            }
+        },
+        {
+            "type": "w",
             "facing": 2,
             "position": {
                 "x": 920,
                 "y": 460
             },
             "size": {
-                "x": 80,
+                "x": 40,
                 "y": 20
             }
         },
         {
-            "type": 2,
-            "facing": 1,
+            "type": "x",
+            "facing": 2,
             "position": {
-                "y": 360,
-                "x": 200
+                "x": 960,
+                "y": 460
             },
             "size": {
-                "y": 120,
-                "x": 20
+                "x": 40,
+                "y": 20
             }
         },
         {
@@ -980,19 +1097,7 @@ window.$game.dataManager.resolve(
             }
         },
         {
-            "type": 2,
-            "facing": 1,
-            "position": {
-                "y": 320,
-                "x": 480
-            },
-            "size": {
-                "y": 40,
-                "x": 20
-            }
-        },
-        {
-            "type": 2,
+            "type": "w",
             "facing": 1,
             "position": {
                 "y": 440,
@@ -1016,7 +1121,7 @@ window.$game.dataManager.resolve(
             }
         },
         {
-            "type": 2,
+            "type": "w",
             "facing": 1,
             "position": {
                 "y": 440,
@@ -1040,50 +1145,62 @@ window.$game.dataManager.resolve(
             }
         },
         {
-            "type": 2,
-            "facing": 0,
-            "position": {
-                "x": 480,
-                "y": 320
-            },
-            "size": {
-                "x": 80,
-                "y": 20
-            }
-        },
-        {
-            "type": 2,
-            "facing": 0,
-            "position": {
-                "x": 200,
-                "y": 360
-            },
-            "size": {
-                "x": 120,
-                "y": 20
-            }
-        },
-        {
-            "type": 2,
+            "type": "w",
             "facing": 0,
             "position": {
                 "x": 640,
                 "y": 440
             },
             "size": {
-                "x": 120,
+                "x": 40,
                 "y": 20
             }
         },
         {
-            "type": 2,
+            "type": "x",
+            "facing": 0,
+            "position": {
+                "x": 680,
+                "y": 440
+            },
+            "size": {
+                "x": 40,
+                "y": 20
+            }
+        },
+        {
+            "type": "y",
+            "facing": 0,
+            "position": {
+                "x": 720,
+                "y": 440
+            },
+            "size": {
+                "x": 40,
+                "y": 20
+            }
+        },
+        {
+            "type": "w",
             "facing": 0,
             "position": {
                 "x": 920,
                 "y": 440
             },
             "size": {
-                "x": 80,
+                "x": 40,
+                "y": 20
+            }
+        },
+        {
+            "type": "x",
+            "facing": 0,
+            "position": {
+                "x": 960,
+                "y": 440
+            },
+            "size": {
+                "x": 40,
                 "y": 20
             }
         },
