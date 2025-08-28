@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta viewport="width=device-width, initial-scale=1.0, user-scale=no">
+    <title>Portal 2D</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/style/base.css">
+</head>
+
+<body>
+    <span class="fps-count">FPS: <span id="fps"></span></span>
+    <div id="game">
+        <canvas id="game-canvas" width="1280" height="720"></canvas>
+        <script>
+            // let c = document.getElementById("game-canvas");
+            // let ctx = c.getContext("2d");
+            // console.log(ctx)
+			// ctx.fillStyle='black';
+            // ctx.fillRect(0, 0, 1280, 720);
+        </script>
+
+    </div>
+
+    <div id="resource" style="display: none;"></div>
+
+    <script type="text/javascript" src="script/utils/FrameRate.js"></script>
+    <script type="text/javascript" src="script/DataManager.js"></script>
+    <script type="text/javascript" src="script/utils/Keyboard.js"></script>
+    <script type="text/javascript" src="script/utils/Mouse.js"></script>
+    <script type="text/javascript" src="script/utils/Vector.js"></script>
+
+
+    <script type="text/javascript" src="script/Hitbox.js"></script>
+    <script type="text/javascript" src="script/Map.js"></script>
+    <script type="text/javascript" src="script/View.js"></script>
+
+    <script type="text/javascript" src="script/Entity.js"></script>
+    <script type="text/javascript" src="script/Player.js"></script>
+    <script type="text/javascript" src="script/Portal.js"></script>
+    <script type="text/javascript" src="script/PortalGun.js"></script>
+
+    <script type="text/javascript" src="script/Game.js"></script>
+
+    <script type="text/javascript">
+        window.onload = () => {
+            window.$game = new Game();
+            window.$game.load().then(() => {
+                window.$game.start();
+            });
+        }
+    </script>
+</body>
+
+</html>
